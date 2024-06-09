@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script type="text/javascript">
+    function calculatePrice() {
+      // Prompt user for price
+      var price = prompt("Please enter the price of the item:");
+
+      // Prompt user for quantity
+      var quantity = prompt("Please enter the quantity of the item:");
+
+      // Calculate the total price
+      var totalPrice = price * quantity;
+
+      // Display the total price
+      alert("The total price is $" + totalPrice + ".");
+    }
+  </script>
+  <body onload="calculatePrice()">
+  </body>
+  
+</body>
+</html>
